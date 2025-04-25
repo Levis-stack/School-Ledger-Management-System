@@ -1,7 +1,10 @@
-import { GraduationCap, Users, UserPlus } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { GraduationCap, Users, UserPlus } from 'lucide-react';
+import { useTheme } from '../ThemeContext';
 
 export default function Navbar() {
+  const { darkMode, toggleTheme } = useTheme();
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -18,6 +21,9 @@ export default function Navbar() {
             <UserPlus size={20} />
             <span>Admit Student</span>
           </Link>
+          <button onClick={toggleTheme} className="navbar-link theme-toggle-btn">
+            {darkMode ? '☀️' : '🌙 '}
+          </button>
         </div>
       </div>
     </nav>

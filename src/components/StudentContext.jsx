@@ -10,7 +10,8 @@ export function StudentProvider({ children }) {
   const [students, setStudents] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = 'http://localhost:3000/students';
+  // ✅ Port corrigé ici
+  const API_URL = 'http://localhost:3001/students';
 
   // Fetch students
   const fetchStudents = async () => {
@@ -19,6 +20,7 @@ export function StudentProvider({ children }) {
       const data = await res.json();
       setStudents(data);
       setLoading(false);
+      console.log('Fetched students:', data); // Debug log
     } catch (err) {
       console.error('Failed to fetch students:', err);
     }
