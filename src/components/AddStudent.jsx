@@ -45,7 +45,7 @@ const AddStudent = ({ addStudent, updateStudent, selectedStudent, setSelectedStu
 
     try {
       if (selectedStudent) {
-        const res = await fetch(`http://localhost:5000/students/${selectedStudent.id}`, {
+        const res = await fetch(`http://localhost:5000/Term1/${selectedStudent.id}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(fullStudent)
@@ -61,7 +61,7 @@ const AddStudent = ({ addStudent, updateStudent, selectedStudent, setSelectedStu
           id: Date.now().toString()
         };
 
-        const res = await fetch('http://localhost:5000/students', {
+        const res = await fetch('http://localhost:5000/Term1', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newStudentWithId)

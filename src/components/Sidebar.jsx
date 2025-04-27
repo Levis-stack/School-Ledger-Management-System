@@ -3,14 +3,20 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const Sidebar = ({ handleGradeFilter }) => {
   const [isExpanded, setIsExpanded] = useState(true);
+  const [selectedGrade, setSelectedGrade] = useState(null); // Track the selected grade
   const grades = Array.from({ length: 12 }, (_, i) => `Grade ${i + 1}`);
 
   const toggleSidebar = () => setIsExpanded(prev => !prev);
 
+  const handleGradeClick = (grade) => {
+    setSelectedGrade(grade); // Set the selected grade
+    handleGradeFilter(grade); // Pass grade to handleGradeFilter
+  };
+
   return (
     <motion.div
-      animate={{ height: isExpanded ? 'auto' : 50 }} // Smooth collapse/expand based on height
-      transition={{ duration: 0.6, ease: "easeInOut" }} // Longer duration with easing for smoothness
+      animate={{ height: isExpanded ? 'auto' : 50 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
       className={`sidebar ${!isExpanded ? 'collapsed' : ''}`}
       style={{ padding: isExpanded ? '1rem' : '0.5rem' }}
     >
@@ -35,8 +41,8 @@ const Sidebar = ({ handleGradeFilter }) => {
                   key={grade}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => handleGradeFilter(grade)} // Pass grade to handleGradeFilter
-                  className="grade-item"
+                  onClick={() => handleGradeClick(grade)} // Handle grade click
+                  className={`grade-item ${selectedGrade === grade ? 'selected' : ''}`} // Add selected class if it's the selected grade
                 >
                   {grade}
                 </motion.li>

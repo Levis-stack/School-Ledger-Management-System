@@ -551,12 +551,12 @@ tr:hover {
 }
 .student-list-container {
   display: flex;
+  position: absolute;
   justify-content: space-between;
   gap: 2rem;
   padding: 2rem;
-  width: 100%;
-  max-width: 100%; /* Remove max-width restriction */
-  margin: 0 auto;
+  width: 1500px;
+ margin-right: 600px;
 }
 
 .student-list-content {
@@ -566,9 +566,8 @@ tr:hover {
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   min-width: 0; /* Add this for flex child overflow issues */
-  width: 100%;
-  max-width: 1400px;
-  overflow-x: auto;
+  width: 1400px;
+  
 }
 
 
@@ -610,12 +609,17 @@ tr:hover {
   gap: 1.2rem;
 }
 
-/* Table */
+
 .student-table {
-  width: 100%;
+  width: 100%;            /* Ensures the table takes full width of its container */
+  max-width: 100%;    /* Limits the table width to 1200px */
+  margin: 0 auto;         /* Centers the table within its container */
   border-collapse: collapse;
   margin-bottom: 2rem;
-  font-size: 0.95rem;
+  font-size: 1rem;        /* Adjust font size */
+}
+.table-container{
+  width: 1400px;
 }
 
 .student-table th,
@@ -630,6 +634,7 @@ tr:hover {
   font-weight: 600;
   color: #333;
 }
+
 
 /* Delete Confirmation Modal */
 .delete-confirmation {
@@ -745,6 +750,99 @@ tr:hover {
 .table-container.blurred {
   filter: blur(5px);
   pointer-events: none; /* Prevent interactions while blurred */
+}
+.radio-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.radio-buttons label {
+  margin-right: 20px;
+}
+
+.term-item2 {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.term-item2:hover {
+  background-color: #f0f8ff; /* Lighter shade of blue on hover */
+}
+
+.term-item2.selected {
+  background-color: #a0c4ff; /* Lighter blue shade for selected term */
+  color: white; /* Ensure text is readable */
+}
+
+.term-item2.blurred {
+  color: gray; /* Apply gray color for blurred terms */
+  text-decoration: line-through; /* Optional: apply a line-through for blurred terms */
+}
+.grade-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.grade-item:hover {
+  background-color: #f0f8ff; /* Lighter shade of blue on hover */
+}
+
+.grade-item.selected {
+  background-color: #a0c4ff; /* Lighter blue shade for selected grade */
+  color: white; /* Ensure text is readable */
+}
+
+.grade-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapse-btn, .expand-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Default student list style */
+.term-list2 {
+  transition: filter 0.3s ease-in-out; /* Add transition for smooth blur effect */
+}
+
+.term-list2.blurred {
+  filter: blur(5px); /* Apply blur effect */
+}
+
+.term-item2 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Highlight the selected term */
+.term-item2.selected {
+  background-color: #cce5ff; /* Light blue for selected term */
+  font-weight: bold;
+}
+
+/* Styling for the message */
+.term-message {
+  font-size: 14px;
+  color: #ff0000; /* Red for pass/upcoming message */
+  margin-top: 10px;
+  text-align: center;
+}
+.term-notification {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 

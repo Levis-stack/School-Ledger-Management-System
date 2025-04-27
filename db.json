@@ -1,5 +1,5 @@
 {
-  "students": [
+  "Term1": [
     {
       "id": "1",
       "name": "Student 1",
@@ -7,7 +7,7 @@
       "grade": "Grade 1",
       "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "2",
@@ -16,6 +16,7 @@
       "grade": "Grade 1",
       "feeStatus": "paid",
       "amountPaid": 50000,
+      "overpayment": 0,
       "term": "Term 1"
     },
     {
@@ -23,9 +24,9 @@
       "name": "Student 3",
       "admissionNumber": "ADM003",
       "grade": "Grade 1",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "4",
@@ -34,97 +35,97 @@
       "grade": "Grade 1",
       "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "5",
       "name": "Student 5",
       "admissionNumber": "ADM005",
       "grade": "Grade 1",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "6",
       "name": "Student 6",
       "admissionNumber": "ADM006",
       "grade": "Grade 1",
-      "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "partial",
+      "amountPaid": 49999,
+      "overpayment": 0
     },
     {
       "id": "7",
       "name": "Student 7",
       "admissionNumber": "ADM007",
       "grade": "Grade 1",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "8",
       "name": "Student 8",
       "admissionNumber": "ADM008",
       "grade": "Grade 1",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "9",
       "name": "Student 9",
       "admissionNumber": "ADM009",
       "grade": "Grade 1",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "10",
       "name": "Student 10",
       "admissionNumber": "ADM010",
       "grade": "Grade 1",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "11",
       "name": "Student 11",
       "admissionNumber": "ADM011",
       "grade": "Grade 2",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "12",
       "name": "Student 12",
       "admissionNumber": "ADM012",
       "grade": "Grade 2",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "13",
       "name": "Student 13",
       "admissionNumber": "ADM013",
       "grade": "Grade 2",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "14",
       "name": "Student 14",
       "admissionNumber": "ADM014",
       "grade": "Grade 2",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "15",
@@ -132,17 +133,17 @@
       "admissionNumber": "ADM015",
       "grade": "Grade 2",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "amountPaid": 55000,
+      "overpayment": 5000
     },
     {
       "id": "16",
       "name": "Student 16",
       "admissionNumber": "ADM016",
       "grade": "Grade 2",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "17",
@@ -151,7 +152,7 @@
       "grade": "Grade 2",
       "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "18",
@@ -159,17 +160,17 @@
       "admissionNumber": "ADM018",
       "grade": "Grade 2",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "19",
       "name": "Student 19",
       "admissionNumber": "ADM019",
       "grade": "Grade 2",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "20",
@@ -177,17 +178,17 @@
       "admissionNumber": "ADM020",
       "grade": "Grade 2",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "21",
       "name": "Student 21",
       "admissionNumber": "ADM021",
       "grade": "Grade 3",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "22",
@@ -195,8 +196,8 @@
       "admissionNumber": "ADM022",
       "grade": "Grade 3",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "23",
@@ -205,61 +206,61 @@
       "grade": "Grade 3",
       "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "24",
       "name": "Student 24",
       "admissionNumber": "ADM024",
       "grade": "Grade 3",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "25",
       "name": "Student 25",
       "admissionNumber": "ADM025",
       "grade": "Grade 3",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "26",
       "name": "Student 26",
       "admissionNumber": "ADM026",
       "grade": "Grade 3",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "27",
       "name": "Student 27",
       "admissionNumber": "ADM027",
       "grade": "Grade 3",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "28",
       "name": "Student 28",
       "admissionNumber": "ADM028",
       "grade": "Grade 3",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "29",
       "name": "Student 29",
       "admissionNumber": "ADM029",
       "grade": "Grade 3",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "30",
@@ -267,17 +268,17 @@
       "admissionNumber": "ADM030",
       "grade": "Grade 3",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "31",
       "name": "Student 31",
       "admissionNumber": "ADM031",
       "grade": "Grade 4",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "32",
@@ -285,8 +286,8 @@
       "admissionNumber": "ADM032",
       "grade": "Grade 4",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "33",
@@ -294,26 +295,26 @@
       "admissionNumber": "ADM033",
       "grade": "Grade 4",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "34",
       "name": "Student 34",
       "admissionNumber": "ADM034",
       "grade": "Grade 4",
-      "feeStatus": "partial",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 3"
+      "overpayment": 0
     },
     {
       "id": "35",
       "name": "Student 35",
       "admissionNumber": "ADM035",
       "grade": "Grade 4",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "36",
@@ -321,44 +322,44 @@
       "admissionNumber": "ADM036",
       "grade": "Grade 4",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "37",
       "name": "Student 37",
       "admissionNumber": "ADM037",
       "grade": "Grade 4",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "38",
       "name": "Student 38",
       "admissionNumber": "ADM038",
       "grade": "Grade 4",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "39",
       "name": "Student 39",
       "admissionNumber": "ADM039",
       "grade": "Grade 4",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "40",
       "name": "Student 40",
       "admissionNumber": "ADM040",
       "grade": "Grade 4",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "41",
@@ -366,89 +367,89 @@
       "admissionNumber": "ADM041",
       "grade": "Grade 5",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "42",
       "name": "Student 42",
       "admissionNumber": "ADM042",
       "grade": "Grade 5",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "43",
       "name": "Student 43",
       "admissionNumber": "ADM043",
       "grade": "Grade 5",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "44",
       "name": "Student 44",
       "admissionNumber": "ADM044",
       "grade": "Grade 5",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "45",
       "name": "Student 45",
       "admissionNumber": "ADM045",
       "grade": "Grade 5",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "46",
       "name": "Student 46",
       "admissionNumber": "ADM046",
       "grade": "Grade 5",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "47",
       "name": "Student 47",
       "admissionNumber": "ADM047",
       "grade": "Grade 5",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "48",
       "name": "Student 48",
       "admissionNumber": "ADM048",
       "grade": "Grade 5",
-      "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 2"
+      "feeStatus": "partial",
+      "amountPaid": 30000,
+      "overpayment": 0
     },
     {
       "id": "49",
       "name": "Student 49",
       "admissionNumber": "ADM049",
       "grade": "Grade 5",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "50",
       "name": "Student 50",
       "admissionNumber": "ADM050",
       "grade": "Grade 5",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "51",
@@ -456,35 +457,35 @@
       "admissionNumber": "ADM051",
       "grade": "Grade 6",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "52",
       "name": "Student 52",
       "admissionNumber": "ADM052",
       "grade": "Grade 6",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "53",
       "name": "Student 53",
       "admissionNumber": "ADM053",
       "grade": "Grade 6",
-      "feeStatus": "partial",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "54",
       "name": "Student 54",
       "admissionNumber": "ADM054",
       "grade": "Grade 6",
-      "feeStatus": "partial",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 3"
+      "overpayment": 0
     },
     {
       "id": "55",
@@ -493,25 +494,25 @@
       "grade": "Grade 6",
       "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "56",
       "name": "Student 56",
       "admissionNumber": "ADM056",
       "grade": "Grade 6",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "57",
       "name": "Student 57",
       "admissionNumber": "ADM057",
       "grade": "Grade 6",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "58",
@@ -519,71 +520,71 @@
       "admissionNumber": "ADM058",
       "grade": "Grade 6",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "59",
       "name": "Student 59",
       "admissionNumber": "ADM059",
       "grade": "Grade 6",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "60",
       "name": "Student 60",
       "admissionNumber": "ADM060",
       "grade": "Grade 6",
-      "feeStatus": "partial",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "61",
       "name": "Student 61",
       "admissionNumber": "ADM061",
       "grade": "Grade 7",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "62",
       "name": "Student 62",
       "admissionNumber": "ADM062",
       "grade": "Grade 7",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "63",
       "name": "Student 63",
       "admissionNumber": "ADM063",
       "grade": "Grade 7",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "64",
       "name": "Student 64",
       "admissionNumber": "ADM064",
       "grade": "Grade 7",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "65",
       "name": "Student 65",
       "admissionNumber": "ADM065",
       "grade": "Grade 7",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "66",
@@ -591,17 +592,17 @@
       "admissionNumber": "ADM066",
       "grade": "Grade 7",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "67",
       "name": "Student 67",
       "admissionNumber": "ADM067",
       "grade": "Grade 7",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "68",
@@ -609,53 +610,53 @@
       "admissionNumber": "ADM068",
       "grade": "Grade 7",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "69",
       "name": "Student 69",
       "admissionNumber": "ADM069",
       "grade": "Grade 7",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "70",
       "name": "Student 70",
       "admissionNumber": "ADM070",
       "grade": "Grade 7",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "71",
       "name": "Student 71",
       "admissionNumber": "ADM071",
       "grade": "Grade 8",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "72",
       "name": "Student 72",
       "admissionNumber": "ADM072",
       "grade": "Grade 8",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "73",
       "name": "Student 73",
       "admissionNumber": "ADM073",
       "grade": "Grade 8",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "74",
@@ -663,8 +664,8 @@
       "admissionNumber": "ADM074",
       "grade": "Grade 8",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "75",
@@ -672,53 +673,53 @@
       "admissionNumber": "ADM075",
       "grade": "Grade 8",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "76",
       "name": "Student 76",
       "admissionNumber": "ADM076",
       "grade": "Grade 8",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "77",
       "name": "Student 77",
       "admissionNumber": "ADM077",
       "grade": "Grade 8",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "78",
       "name": "Student 78",
       "admissionNumber": "ADM078",
       "grade": "Grade 8",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "79",
       "name": "Student 79",
       "admissionNumber": "ADM079",
       "grade": "Grade 8",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "80",
       "name": "Student 80",
       "admissionNumber": "ADM080",
       "grade": "Grade 8",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "81",
@@ -726,26 +727,26 @@
       "admissionNumber": "ADM081",
       "grade": "Grade 9",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "82",
       "name": "Student 82",
       "admissionNumber": "ADM082",
       "grade": "Grade 9",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "83",
       "name": "Student 83",
       "admissionNumber": "ADM083",
       "grade": "Grade 9",
-      "feeStatus": "pending",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "84",
@@ -753,17 +754,17 @@
       "admissionNumber": "ADM084",
       "grade": "Grade 9",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "85",
       "name": "Student 85",
       "admissionNumber": "ADM085",
       "grade": "Grade 9",
-      "feeStatus": "partial",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "86",
@@ -771,44 +772,44 @@
       "admissionNumber": "ADM086",
       "grade": "Grade 9",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "87",
       "name": "Student 87",
       "admissionNumber": "ADM087",
       "grade": "Grade 9",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "88",
       "name": "Student 88",
       "admissionNumber": "ADM088",
       "grade": "Grade 9",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "89",
       "name": "Student 89",
       "admissionNumber": "ADM089",
       "grade": "Grade 9",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "90",
       "name": "Student 90",
       "admissionNumber": "ADM090",
       "grade": "Grade 9",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "91",
@@ -816,44 +817,44 @@
       "admissionNumber": "ADM091",
       "grade": "Grade 10",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "92",
       "name": "Student 92",
       "admissionNumber": "ADM092",
       "grade": "Grade 10",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 3"
+      "overpayment": 0
     },
     {
       "id": "93",
       "name": "Student 93",
       "admissionNumber": "ADM093",
       "grade": "Grade 10",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "94",
       "name": "Student 94",
       "admissionNumber": "ADM094",
       "grade": "Grade 10",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "95",
       "name": "Student 95",
       "admissionNumber": "ADM095",
       "grade": "Grade 10",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "96",
@@ -862,7 +863,7 @@
       "grade": "Grade 10",
       "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "97",
@@ -870,8 +871,8 @@
       "admissionNumber": "ADM097",
       "grade": "Grade 10",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "98",
@@ -879,62 +880,62 @@
       "admissionNumber": "ADM098",
       "grade": "Grade 10",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "99",
       "name": "Student 99",
       "admissionNumber": "ADM099",
       "grade": "Grade 10",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "100",
       "name": "Student 100",
       "admissionNumber": "ADM100",
       "grade": "Grade 10",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "101",
       "name": "Student 101",
       "admissionNumber": "ADM101",
       "grade": "Grade 11",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "102",
       "name": "Student 102",
       "admissionNumber": "ADM102",
       "grade": "Grade 11",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 2"
+      "overpayment": 0
     },
     {
       "id": "103",
       "name": "Student 103",
       "admissionNumber": "ADM103",
       "grade": "Grade 11",
-      "feeStatus": "pending",
+      "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "104",
       "name": "Student 104",
       "admissionNumber": "ADM104",
       "grade": "Grade 11",
-      "feeStatus": "partial",
-      "amountPaid": 0,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "105",
@@ -942,17 +943,17 @@
       "admissionNumber": "ADM105",
       "grade": "Grade 11",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "106",
       "name": "Student 106",
       "admissionNumber": "ADM106",
       "grade": "Grade 11",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "107",
@@ -960,8 +961,8 @@
       "admissionNumber": "ADM107",
       "grade": "Grade 11",
       "feeStatus": "paid",
-      "amountPaid": 0,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "108",
@@ -970,43 +971,43 @@
       "grade": "Grade 11",
       "feeStatus": "paid",
       "amountPaid": 50000,
-      "term": "Term 1"
+      "overpayment": 0
     },
     {
       "id": "109",
       "name": "Student 109",
       "admissionNumber": "ADM109",
       "grade": "Grade 11",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "110",
       "name": "Student 110",
       "admissionNumber": "ADM110",
       "grade": "Grade 11",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "111",
       "name": "Student 111",
       "admissionNumber": "ADM111",
       "grade": "Grade 12",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "112",
       "name": "Student 112",
       "admissionNumber": "ADM112",
       "grade": "Grade 12",
-      "feeStatus": "partial",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "113",
@@ -1014,26 +1015,26 @@
       "admissionNumber": "ADM113",
       "grade": "Grade 12",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "114",
       "name": "Student 114",
       "admissionNumber": "ADM114",
       "grade": "Grade 12",
-      "feeStatus": "pending",
-      "amountPaid": 0,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "115",
       "name": "Student 115",
       "admissionNumber": "ADM115",
       "grade": "Grade 12",
-      "feeStatus": "partial",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "116",
@@ -1041,17 +1042,17 @@
       "admissionNumber": "ADM116",
       "grade": "Grade 12",
       "feeStatus": "paid",
-      "amountPaid": 30000,
-      "term": "Term 2"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "117",
       "name": "Student 117",
       "admissionNumber": "ADM117",
       "grade": "Grade 12",
-      "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "118",
@@ -1059,8 +1060,8 @@
       "admissionNumber": "ADM118",
       "grade": "Grade 12",
       "feeStatus": "paid",
-      "amountPaid": 20000,
-      "term": "Term 1"
+      "amountPaid": 50000,
+      "overpayment": 0
     },
     {
       "id": "119",
@@ -1068,8 +1069,1108 @@
       "admissionNumber": "ADM119",
       "grade": "Grade 12",
       "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
+    },
+    {
+      "id": "120",
+      "name": "Student 120",
+      "admissionNumber": "ADM120",
+      "grade": "Grade 12",
+      "feeStatus": "paid",
+      "amountPaid": 50000,
+      "overpayment": 0
+    },
+    {
+      "id": "1745749082091",
+      "name": "Praise Victoria ",
+      "admissionNumber": "ADM121",
+      "grade": "Grade 1",
+      "amountPaid": 70000,
+      "term": "Term 1",
+      "feeStatus": "partial"
+    },
+    {
+      "id": "1745778751236",
+      "name": "Oscar Maingi",
+      "admissionNumber": "ADM122",
+      "grade": "Grade 1",
+      "amountPaid": 5000,
+      "term": "Term 1",
+      "feeStatus": "partial"
+    }
+  ],
+  "Term2": [
+    {
+      "id": "1",
+      "name": "Beggining of 2",
+      "admissionNumber": "ADM001",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
       "amountPaid": 0,
-      "term": "Term 1"
+      "overpayment": 0
+    },
+    {
+      "id": "2",
+      "name": "Student 2",
+      "admissionNumber": "ADM002",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "3",
+      "name": "Student 3",
+      "admissionNumber": "ADM003",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "4",
+      "name": "Student 4",
+      "admissionNumber": "ADM004",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "5",
+      "name": "Student 5",
+      "admissionNumber": "ADM005",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "6",
+      "name": "Student 6",
+      "admissionNumber": "ADM006",
+      "grade": "Grade 1",
+      "feeStatus": "partial",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "7",
+      "name": "Student 7",
+      "admissionNumber": "ADM007",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "8",
+      "name": "Student 8",
+      "admissionNumber": "ADM008",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "9",
+      "name": "Student 9",
+      "admissionNumber": "ADM009",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "10",
+      "name": "Student 10",
+      "admissionNumber": "ADM010",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "11",
+      "name": "Student 11",
+      "admissionNumber": "ADM011",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "12",
+      "name": "Student 12",
+      "admissionNumber": "ADM012",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "13",
+      "name": "Student 13",
+      "admissionNumber": "ADM013",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "14",
+      "name": "Student 14",
+      "admissionNumber": "ADM014",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "15",
+      "name": "Student 15",
+      "admissionNumber": "ADM015",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": -1,
+      "overpayment": 0
+    },
+    {
+      "id": "16",
+      "name": "Student 16",
+      "admissionNumber": "ADM016",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "17",
+      "name": "Student 17",
+      "admissionNumber": "ADM017",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "18",
+      "name": "Student 18",
+      "admissionNumber": "ADM018",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "19",
+      "name": "Student 19",
+      "admissionNumber": "ADM019",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "20",
+      "name": "Student 20",
+      "admissionNumber": "ADM020",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "21",
+      "name": "Student 21",
+      "admissionNumber": "ADM021",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "22",
+      "name": "Student 22",
+      "admissionNumber": "ADM022",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "23",
+      "name": "Student 23",
+      "admissionNumber": "ADM023",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "24",
+      "name": "Student 24",
+      "admissionNumber": "ADM024",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "25",
+      "name": "Student 25",
+      "admissionNumber": "ADM025",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "26",
+      "name": "Student 26",
+      "admissionNumber": "ADM026",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "27",
+      "name": "Student 27",
+      "admissionNumber": "ADM027",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "28",
+      "name": "Student 28",
+      "admissionNumber": "ADM028",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "29",
+      "name": "Student 29",
+      "admissionNumber": "ADM029",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "30",
+      "name": "Student 30",
+      "admissionNumber": "ADM030",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "31",
+      "name": "Student 31",
+      "admissionNumber": "ADM031",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "32",
+      "name": "Student 32",
+      "admissionNumber": "ADM032",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "33",
+      "name": "Student 33",
+      "admissionNumber": "ADM033",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "34",
+      "name": "Student 34",
+      "admissionNumber": "ADM034",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "35",
+      "name": "Student 35",
+      "admissionNumber": "ADM035",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "36",
+      "name": "Student 36",
+      "admissionNumber": "ADM036",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "37",
+      "name": "Student 37",
+      "admissionNumber": "ADM037",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "38",
+      "name": "Student 38",
+      "admissionNumber": "ADM038",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "39",
+      "name": "Student 39",
+      "admissionNumber": "ADM039",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "40",
+      "name": "Student 40",
+      "admissionNumber": "ADM040",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "41",
+      "name": "Student 41",
+      "admissionNumber": "ADM041",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "42",
+      "name": "Student 42",
+      "admissionNumber": "ADM042",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "43",
+      "name": "Student 43",
+      "admissionNumber": "ADM043",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "44",
+      "name": "Student 44",
+      "admissionNumber": "ADM044",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "45",
+      "name": "Student 45",
+      "admissionNumber": "ADM045",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "46",
+      "name": "Student 46",
+      "admissionNumber": "ADM046",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "47",
+      "name": "Student 47",
+      "admissionNumber": "ADM047",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "48",
+      "name": "Student 48",
+      "admissionNumber": "ADM048",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "49",
+      "name": "Student 49",
+      "admissionNumber": "ADM049",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "50",
+      "name": "Student 50",
+      "admissionNumber": "ADM050",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "51",
+      "name": "Student 51",
+      "admissionNumber": "ADM051",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "52",
+      "name": "Student 52",
+      "admissionNumber": "ADM052",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "53",
+      "name": "Student 53",
+      "admissionNumber": "ADM053",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "54",
+      "name": "Student 54",
+      "admissionNumber": "ADM054",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "55",
+      "name": "Student 55",
+      "admissionNumber": "ADM055",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "56",
+      "name": "Student 56",
+      "admissionNumber": "ADM056",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "57",
+      "name": "Student 57",
+      "admissionNumber": "ADM057",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "58",
+      "name": "Student 58",
+      "admissionNumber": "ADM058",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "59",
+      "name": "Student 59",
+      "admissionNumber": "ADM059",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "60",
+      "name": "Student 60",
+      "admissionNumber": "ADM060",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "61",
+      "name": "Student 61",
+      "admissionNumber": "ADM061",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "62",
+      "name": "Student 62",
+      "admissionNumber": "ADM062",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "63",
+      "name": "Student 63",
+      "admissionNumber": "ADM063",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "64",
+      "name": "Student 64",
+      "admissionNumber": "ADM064",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "65",
+      "name": "Student 65",
+      "admissionNumber": "ADM065",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "66",
+      "name": "Student 66",
+      "admissionNumber": "ADM066",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "67",
+      "name": "Student 67",
+      "admissionNumber": "ADM067",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "68",
+      "name": "Student 68",
+      "admissionNumber": "ADM068",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "69",
+      "name": "Student 69",
+      "admissionNumber": "ADM069",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "70",
+      "name": "Student 70",
+      "admissionNumber": "ADM070",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "71",
+      "name": "Student 71",
+      "admissionNumber": "ADM071",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "72",
+      "name": "Student 72",
+      "admissionNumber": "ADM072",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "73",
+      "name": "Student 73",
+      "admissionNumber": "ADM073",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "74",
+      "name": "Student 74",
+      "admissionNumber": "ADM074",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "75",
+      "name": "Student 75",
+      "admissionNumber": "ADM075",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "76",
+      "name": "Student 76",
+      "admissionNumber": "ADM076",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "77",
+      "name": "Student 77",
+      "admissionNumber": "ADM077",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "78",
+      "name": "Student 78",
+      "admissionNumber": "ADM078",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "79",
+      "name": "Student 79",
+      "admissionNumber": "ADM079",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "80",
+      "name": "Student 80",
+      "admissionNumber": "ADM080",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "81",
+      "name": "Student 81",
+      "admissionNumber": "ADM081",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "82",
+      "name": "Student 82",
+      "admissionNumber": "ADM082",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "83",
+      "name": "Student 83",
+      "admissionNumber": "ADM083",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "84",
+      "name": "Student 84",
+      "admissionNumber": "ADM084",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "85",
+      "name": "Student 85",
+      "admissionNumber": "ADM085",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "86",
+      "name": "Student 86",
+      "admissionNumber": "ADM086",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "87",
+      "name": "Student 87",
+      "admissionNumber": "ADM087",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "88",
+      "name": "Student 88",
+      "admissionNumber": "ADM088",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "89",
+      "name": "Student 89",
+      "admissionNumber": "ADM089",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "90",
+      "name": "Student 90",
+      "admissionNumber": "ADM090",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "91",
+      "name": "Student 91",
+      "admissionNumber": "ADM091",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "92",
+      "name": "Student 92",
+      "admissionNumber": "ADM092",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "93",
+      "name": "Student 93",
+      "admissionNumber": "ADM093",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "94",
+      "name": "Student 94",
+      "admissionNumber": "ADM094",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "95",
+      "name": "Student 95",
+      "admissionNumber": "ADM095",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "96",
+      "name": "Student 96",
+      "admissionNumber": "ADM096",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "97",
+      "name": "Student 97",
+      "admissionNumber": "ADM097",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "98",
+      "name": "Student 98",
+      "admissionNumber": "ADM098",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "99",
+      "name": "Student 99",
+      "admissionNumber": "ADM099",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "100",
+      "name": "Student 100",
+      "admissionNumber": "ADM100",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "101",
+      "name": "Student 101",
+      "admissionNumber": "ADM101",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "102",
+      "name": "Student 102",
+      "admissionNumber": "ADM102",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "103",
+      "name": "Student 103",
+      "admissionNumber": "ADM103",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "104",
+      "name": "Student 104",
+      "admissionNumber": "ADM104",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "105",
+      "name": "Student 105",
+      "admissionNumber": "ADM105",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "106",
+      "name": "Student 106",
+      "admissionNumber": "ADM106",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "107",
+      "name": "Student 107",
+      "admissionNumber": "ADM107",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "108",
+      "name": "Student 108",
+      "admissionNumber": "ADM108",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "109",
+      "name": "Student 109",
+      "admissionNumber": "ADM109",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "110",
+      "name": "Student 110",
+      "admissionNumber": "ADM110",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "111",
+      "name": "Student 111",
+      "admissionNumber": "ADM111",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "112",
+      "name": "Student 112",
+      "admissionNumber": "ADM112",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "113",
+      "name": "Student 113",
+      "admissionNumber": "ADM113",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "114",
+      "name": "Student 114",
+      "admissionNumber": "ADM114",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "115",
+      "name": "Student 115",
+      "admissionNumber": "ADM115",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "116",
+      "name": "Student 116",
+      "admissionNumber": "ADM116",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "117",
+      "name": "Student 117",
+      "admissionNumber": "ADM117",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "118",
+      "name": "Student 118",
+      "admissionNumber": "ADM118",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "119",
+      "name": "Student 119",
+      "admissionNumber": "ADM119",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
     },
     {
       "id": "120",
@@ -1077,33 +2178,1110 @@
       "admissionNumber": "ADM120",
       "grade": "Grade 12",
       "feeStatus": "pending",
-      "amountPaid": 30000,
-      "term": "Term 3"
+      "amountPaid": null,
+      "overpayment": 0
     },
     {
-      "id": "1745606977754",
+      "id": "1745749082091",
       "name": "Praise Victoria ",
       "admissionNumber": "ADM121",
       "grade": "Grade 1",
-      "amountPaid": 40000,
+      "amountPaid": null,
       "term": "Term 1",
-      "feeStatus": "partial"
-    },
-    {
-      "id": "1745607537700",
-      "name": "Oscar Maingi",
-      "admissionNumber": "ADM122",
-      "grade": "Grade 2",
-      "amountPaid": 500000,
-      "term": "Term 1",
-      "feeStatus": "partial"
+      "feeStatus": "pending",
+      "overpayment": 0
     }
   ],
-  "users": [
+  "Term3": [
     {
       "id": "1",
-      "username": "admin",
-      "password": "admin"
+      "name": "Beggining of 2",
+      "admissionNumber": "ADM001",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "2",
+      "name": "Student 2",
+      "admissionNumber": "ADM002",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "3",
+      "name": "Student 3",
+      "admissionNumber": "ADM003",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "4",
+      "name": "Student 4",
+      "admissionNumber": "ADM004",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "5",
+      "name": "Student 5",
+      "admissionNumber": "ADM005",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "6",
+      "name": "Student 6",
+      "admissionNumber": "ADM006",
+      "grade": "Grade 1",
+      "feeStatus": "partial",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "7",
+      "name": "Student 7",
+      "admissionNumber": "ADM007",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "8",
+      "name": "Student 8",
+      "admissionNumber": "ADM008",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "9",
+      "name": "Student 9",
+      "admissionNumber": "ADM009",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "10",
+      "name": "Student 10",
+      "admissionNumber": "ADM010",
+      "grade": "Grade 1",
+      "feeStatus": "paid",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "11",
+      "name": "Student 11",
+      "admissionNumber": "ADM011",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "12",
+      "name": "Student 12",
+      "admissionNumber": "ADM012",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "13",
+      "name": "Student 13",
+      "admissionNumber": "ADM013",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "14",
+      "name": "Student 14",
+      "admissionNumber": "ADM014",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "15",
+      "name": "Student 15",
+      "admissionNumber": "ADM015",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": -1,
+      "overpayment": 0
+    },
+    {
+      "id": "16",
+      "name": "Student 16",
+      "admissionNumber": "ADM016",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "17",
+      "name": "Student 17",
+      "admissionNumber": "ADM017",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "18",
+      "name": "Student 18",
+      "admissionNumber": "ADM018",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "19",
+      "name": "Student 19",
+      "admissionNumber": "ADM019",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "20",
+      "name": "Student 20",
+      "admissionNumber": "ADM020",
+      "grade": "Grade 2",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "21",
+      "name": "Student 21",
+      "admissionNumber": "ADM021",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "22",
+      "name": "Student 22",
+      "admissionNumber": "ADM022",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "23",
+      "name": "Student 23",
+      "admissionNumber": "ADM023",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "24",
+      "name": "Student 24",
+      "admissionNumber": "ADM024",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "25",
+      "name": "Student 25",
+      "admissionNumber": "ADM025",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "26",
+      "name": "Student 26",
+      "admissionNumber": "ADM026",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "27",
+      "name": "Student 27",
+      "admissionNumber": "ADM027",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "28",
+      "name": "Student 28",
+      "admissionNumber": "ADM028",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "29",
+      "name": "Student 29",
+      "admissionNumber": "ADM029",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "30",
+      "name": "Student 30",
+      "admissionNumber": "ADM030",
+      "grade": "Grade 3",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "31",
+      "name": "Student 31",
+      "admissionNumber": "ADM031",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "32",
+      "name": "Student 32",
+      "admissionNumber": "ADM032",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "33",
+      "name": "Student 33",
+      "admissionNumber": "ADM033",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "34",
+      "name": "Student 34",
+      "admissionNumber": "ADM034",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "35",
+      "name": "Student 35",
+      "admissionNumber": "ADM035",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "36",
+      "name": "Student 36",
+      "admissionNumber": "ADM036",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "37",
+      "name": "Student 37",
+      "admissionNumber": "ADM037",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "38",
+      "name": "Student 38",
+      "admissionNumber": "ADM038",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "39",
+      "name": "Student 39",
+      "admissionNumber": "ADM039",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "40",
+      "name": "Student 40",
+      "admissionNumber": "ADM040",
+      "grade": "Grade 4",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "41",
+      "name": "Student 41",
+      "admissionNumber": "ADM041",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "42",
+      "name": "Student 42",
+      "admissionNumber": "ADM042",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "43",
+      "name": "Student 43",
+      "admissionNumber": "ADM043",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "44",
+      "name": "Student 44",
+      "admissionNumber": "ADM044",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "45",
+      "name": "Student 45",
+      "admissionNumber": "ADM045",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "46",
+      "name": "Student 46",
+      "admissionNumber": "ADM046",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "47",
+      "name": "Student 47",
+      "admissionNumber": "ADM047",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "48",
+      "name": "Student 48",
+      "admissionNumber": "ADM048",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "49",
+      "name": "Student 49",
+      "admissionNumber": "ADM049",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "50",
+      "name": "Student 50",
+      "admissionNumber": "ADM050",
+      "grade": "Grade 5",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "51",
+      "name": "Student 51",
+      "admissionNumber": "ADM051",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "52",
+      "name": "Student 52",
+      "admissionNumber": "ADM052",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "53",
+      "name": "Student 53",
+      "admissionNumber": "ADM053",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": 0,
+      "overpayment": 0
+    },
+    {
+      "id": "54",
+      "name": "Student 54",
+      "admissionNumber": "ADM054",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "55",
+      "name": "Student 55",
+      "admissionNumber": "ADM055",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "56",
+      "name": "Student 56",
+      "admissionNumber": "ADM056",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "57",
+      "name": "Student 57",
+      "admissionNumber": "ADM057",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "58",
+      "name": "Student 58",
+      "admissionNumber": "ADM058",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "59",
+      "name": "Student 59",
+      "admissionNumber": "ADM059",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "60",
+      "name": "Student 60",
+      "admissionNumber": "ADM060",
+      "grade": "Grade 6",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "61",
+      "name": "Student 61",
+      "admissionNumber": "ADM061",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "62",
+      "name": "Student 62",
+      "admissionNumber": "ADM062",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "63",
+      "name": "Student 63",
+      "admissionNumber": "ADM063",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "64",
+      "name": "Student 64",
+      "admissionNumber": "ADM064",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "65",
+      "name": "Student 65",
+      "admissionNumber": "ADM065",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "66",
+      "name": "Student 66",
+      "admissionNumber": "ADM066",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "67",
+      "name": "Student 67",
+      "admissionNumber": "ADM067",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "68",
+      "name": "Student 68",
+      "admissionNumber": "ADM068",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "69",
+      "name": "Student 69",
+      "admissionNumber": "ADM069",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "70",
+      "name": "Student 70",
+      "admissionNumber": "ADM070",
+      "grade": "Grade 7",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "71",
+      "name": "Student 71",
+      "admissionNumber": "ADM071",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "72",
+      "name": "Student 72",
+      "admissionNumber": "ADM072",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "73",
+      "name": "Student 73",
+      "admissionNumber": "ADM073",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "74",
+      "name": "Student 74",
+      "admissionNumber": "ADM074",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "75",
+      "name": "Student 75",
+      "admissionNumber": "ADM075",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "76",
+      "name": "Student 76",
+      "admissionNumber": "ADM076",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "77",
+      "name": "Student 77",
+      "admissionNumber": "ADM077",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "78",
+      "name": "Student 78",
+      "admissionNumber": "ADM078",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "79",
+      "name": "Student 79",
+      "admissionNumber": "ADM079",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "80",
+      "name": "Student 80",
+      "admissionNumber": "ADM080",
+      "grade": "Grade 8",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "81",
+      "name": "Student 81",
+      "admissionNumber": "ADM081",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "82",
+      "name": "Student 82",
+      "admissionNumber": "ADM082",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "83",
+      "name": "Student 83",
+      "admissionNumber": "ADM083",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "84",
+      "name": "Student 84",
+      "admissionNumber": "ADM084",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "85",
+      "name": "Student 85",
+      "admissionNumber": "ADM085",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "86",
+      "name": "Student 86",
+      "admissionNumber": "ADM086",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "87",
+      "name": "Student 87",
+      "admissionNumber": "ADM087",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "88",
+      "name": "Student 88",
+      "admissionNumber": "ADM088",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "89",
+      "name": "Student 89",
+      "admissionNumber": "ADM089",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "90",
+      "name": "Student 90",
+      "admissionNumber": "ADM090",
+      "grade": "Grade 9",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "91",
+      "name": "Student 91",
+      "admissionNumber": "ADM091",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "92",
+      "name": "Student 92",
+      "admissionNumber": "ADM092",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "93",
+      "name": "Student 93",
+      "admissionNumber": "ADM093",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "94",
+      "name": "Student 94",
+      "admissionNumber": "ADM094",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "95",
+      "name": "Student 95",
+      "admissionNumber": "ADM095",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "96",
+      "name": "Student 96",
+      "admissionNumber": "ADM096",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "97",
+      "name": "Student 97",
+      "admissionNumber": "ADM097",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "98",
+      "name": "Student 98",
+      "admissionNumber": "ADM098",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "99",
+      "name": "Student 99",
+      "admissionNumber": "ADM099",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "100",
+      "name": "Student 100",
+      "admissionNumber": "ADM100",
+      "grade": "Grade 10",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "101",
+      "name": "Student 101",
+      "admissionNumber": "ADM101",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "102",
+      "name": "Student 102",
+      "admissionNumber": "ADM102",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "103",
+      "name": "Student 103",
+      "admissionNumber": "ADM103",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "104",
+      "name": "Student 104",
+      "admissionNumber": "ADM104",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "105",
+      "name": "Student 105",
+      "admissionNumber": "ADM105",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "106",
+      "name": "Student 106",
+      "admissionNumber": "ADM106",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "107",
+      "name": "Student 107",
+      "admissionNumber": "ADM107",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "108",
+      "name": "Student 108",
+      "admissionNumber": "ADM108",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "109",
+      "name": "Student 109",
+      "admissionNumber": "ADM109",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "110",
+      "name": "Student 110",
+      "admissionNumber": "ADM110",
+      "grade": "Grade 11",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "111",
+      "name": "Student 111",
+      "admissionNumber": "ADM111",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "112",
+      "name": "Student 112",
+      "admissionNumber": "ADM112",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "113",
+      "name": "Student 113",
+      "admissionNumber": "ADM113",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "114",
+      "name": "Student 114",
+      "admissionNumber": "ADM114",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "115",
+      "name": "Student 115",
+      "admissionNumber": "ADM115",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "116",
+      "name": "Student 116",
+      "admissionNumber": "ADM116",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "117",
+      "name": "Student 117",
+      "admissionNumber": "ADM117",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "118",
+      "name": "Student 118",
+      "admissionNumber": "ADM118",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "119",
+      "name": "Student 119",
+      "admissionNumber": "ADM119",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "120",
+      "name": "Student 120",
+      "admissionNumber": "ADM120",
+      "grade": "Grade 12",
+      "feeStatus": "pending",
+      "amountPaid": null,
+      "overpayment": 0
+    },
+    {
+      "id": "1745749082091",
+      "name": "Praise Victoria ",
+      "admissionNumber": "ADM121",
+      "grade": "Grade 1",
+      "amountPaid": null,
+      "term": "Term 1",
+      "feeStatus": "pending",
+      "overpayment": 0
     }
   ]
 }

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import AddStudent from '../components/AddStudent';
 import FilterStudents from '../components/FilterStudents';
-import StudentDetails from '../components/StudentDetails';
+
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -19,7 +19,7 @@ const Dashboard = ({ addStudent, deleteStudent, updateStudentFee, updateStudent 
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const response = await fetch("http://localhost:5000/students");
+        const response = await fetch("http://localhost:5000/students/Term1");
         const data = await response.json();
         const studentsWithStatus = data.map(student => ({
           ...student,
@@ -108,13 +108,7 @@ const Dashboard = ({ addStudent, deleteStudent, updateStudentFee, updateStudent 
           />
         </motion.div>
 
-        {selectedStudent && (
-          <StudentDetails 
-            student={selectedStudent} 
-            setSelectedStudent={setSelectedStudent}
-            updateStudentFee={updateStudentFee}
-          />
-        )}
+        
       </div>
 
       <ToastContainer 
