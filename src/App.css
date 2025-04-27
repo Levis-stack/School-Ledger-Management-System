@@ -128,10 +128,8 @@ body {
   color: red;
 }
 
-/* src/App.css */
-
 .navbar {
-  background-color: #4f46e5; /* indigo-600 */
+  background-color: #4f46e5; 
   color: white;
   padding: 1rem;
   width: 100%;
@@ -164,7 +162,7 @@ body {
 
 .navbar-links {
   display: flex;
-  gap: 2rem; /* Increased gap between links */
+  gap: 2rem; 
 }
 
 .navbar-link {
@@ -177,7 +175,7 @@ body {
 }
 
 .navbar-link:hover {
-  color: #c7d2fe; /* indigo-200 */
+  color: #c7d2fe; 
 }
 
 .admit-form {
@@ -192,28 +190,28 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 0.875rem;
-  color: #374151; /* text-gray-700 */
+  color: #374151; 
 }
 
 .form-input {
   margin-top: 0.25rem;
   padding: 0.5rem;
   border-radius: 6px;
-  border: 1px solid #d1d5db; /* border-gray-300 */
+  border: 1px solid #d1d5db; 
   font-size: 0.875rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   outline: none;
 }
 
 .form-input:focus {
-  border-color: #6366f1; /* indigo-500 */
-  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3); /* focus:ring-indigo-500 */
+  border-color: #6366f1; 
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.3); 
 }
 
 .submit-btn {
   width: 100%;
   padding: 0.75rem;
-  background-color: #4f46e5; /* indigo-600 */
+  background-color: #4f46e5; 
   color: white;
   font-weight: 500;
   font-size: 0.875rem;
@@ -225,15 +223,14 @@ body {
 }
 
 .submit-btn:hover {
-  background-color: #4338ca; /* indigo-700 */
+  background-color: #4338ca; 
 }
 
 .submit-btn:focus {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5); /* focus:ring-indigo-500 */
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5); 
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .filters {
     flex-direction: column;
@@ -257,7 +254,6 @@ body {
   }
 }
 
-/*Theme */
 body.light {
   background-color: #f9fafb;
   color: #111827;
@@ -268,7 +264,6 @@ body.dark {
   color: #f3f4f6;
 }
 
-/*Navbar */
 .navbar {
   background-color: #4f46e5;
   color: white;
@@ -298,7 +293,6 @@ body.dark {
   opacity: 0.9;
 }
 
-/* Table and filters*/
 .container {
   padding: 2rem;
 }
@@ -340,7 +334,6 @@ body.dark select {
   border: 1px solid #4b5563;
 }
 
-/*Toggle bouton */
 .theme-toggle-btn {
   background: none;
   border: 1px solid white;
@@ -356,7 +349,7 @@ body.dark select {
 .theme-toggle-btn:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
-/* Form dark mode */
+
 body.dark label {
   color: #e5e7eb; 
 }
@@ -372,7 +365,7 @@ body.dark input::placeholder {
   color: #9ca3af;
 }
 
-/* Table dark mode*/
+
 body.dark .student-table {
   background-color: #1f2937;
   color: #f3f4f6;             
