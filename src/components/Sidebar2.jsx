@@ -1,33 +1,28 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState } from 'react';
 
-function Sidebar2({ currentDate, handlePendingFees }) {
-  const date = useMemo(() => currentDate ?? new Date(), [currentDate]);
-  const [currentTerm, setCurrentTerm] = useState('');
-  const [selectedTerm, setSelectedTerm] = useState('');
+function Sidebar2({ selectedTerm, handlePendingFees, handleTermChange: parentHandleTermChange }) {
   const [isCollapsed, setIsCollapsed] = useState(false);
-  const [blurredTerm, setBlurredTerm] = useState(null);
 
-  useEffect(() => {
-    const term = determineTerm(date);
-    setCurrentTerm(term);
-  }, [date]);
+  const handleTermChange = (term) => {
+    const termOrder = {
+      'Term 1': 1,
+      'Term 2': 2,
+      'Term 3': 3,
+    };
 
-  const determineTerm = (date) => {
-    const month = date.getMonth();
-    if (month >= 0 && month <= 3) return 'Term 1';
-    else if (month >= 4 && month <= 7) return 'Term 2';
-    else if (month >= 8 && month <= 10) return 'Term 3';
-    else return 'Term 1';
+    const current = termOrder[selectedTerm];
+    const clicked = termOrder[term];
+
+    console.log('Clicked:', clicked, 'Current:', current); // You can keep or remove this
+
+    // Removed toast logic
+
+    parentHandleTermChange(term);
   };
 
   const handleTermClick = (term) => {
-    if (selectedTerm === term) {
-      setBlurredTerm(term);
-      handlePendingFees(term);
-    } else {
-      setSelectedTerm(term);
-      setBlurredTerm(null);
-    }
+    handleTermChange(term);
+    handlePendingFees(term);  // Mark fees for the selected term
   };
 
   const toggleCollapse = () => {
@@ -39,26 +34,26 @@ function Sidebar2({ currentDate, handlePendingFees }) {
       <button className="collapse-toggle2" onClick={toggleCollapse}>
         {isCollapsed ? 'Terms' : 'Collapse'}
       </button>
-
+      
       <h3 style={{ backgroundColor: 'transparent' }}>
-        {isCollapsed ? '' : `Current Term: ${currentTerm}`}
+        {isCollapsed ? '' : `Select Term`}
       </h3>
-
-      <ul className={`term-list2 ${isCollapsed ? 'collapsed-list' : ''} ${blurredTerm ? 'blurred' : ''}`}>
-        {['Term 1', 'Term 2', 'Term 3'].map(term => (
+      
+      <ul className={`term-list2 ${isCollapsed ? 'collapsed-list' : ''}`}>
+        {['Term 1', 'Term 2', 'Term 3'].map((term) => (
           <li
             key={term}
             onClick={() => handleTermClick(term)}
             className={`term-item2 ${selectedTerm === term ? 'selected' : ''}`}
           >
-            {term === 'Term 2' && date.getMonth() === 3 ? 'Term 2 (Upcoming)' : term}
+            {term}
           </li>
         ))}
       </ul>
-
-      {blurredTerm && (blurredTerm === 'Term 2' || blurredTerm === 'Term 3') && (
-        <p className="upcoming2">⚠️ {blurredTerm} is upcoming. All fees set to pending.</p>
-      )}
+      
+      <div className="selected-term">
+        <p>Selected Term: {selectedTerm}</p>
+      </div>
     </div>
   );
 }

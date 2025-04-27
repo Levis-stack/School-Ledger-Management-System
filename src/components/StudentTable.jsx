@@ -1,7 +1,14 @@
 import { motion } from 'framer-motion';
 import FeeStatusButtons from './FeeStatusButtons';
 
-const StudentTable = ({ students, handleDelete, updateStudentFee, calculateDeficit, blurred }) => {
+const StudentTable = ({
+  students,
+  handleDelete,
+  updateStudentFee,
+  calculateDeficit,
+  calculateOverpayment, // Add calculateOverpayment as a prop
+  blurred
+}) => {
   return (
     <div className={`table-container ${blurred ? 'blurred' : ''}`}>
       <table>
@@ -12,6 +19,7 @@ const StudentTable = ({ students, handleDelete, updateStudentFee, calculateDefic
             <th>Grade</th>
             <th>Amount Paid</th>
             <th>Deficit</th>
+            <th>Overpayment</th> {/* New column for Overpayment */}
             <th>Fee Status</th>
             <th>Actions</th>
           </tr>
@@ -41,6 +49,9 @@ const StudentTable = ({ students, handleDelete, updateStudentFee, calculateDefic
               
               {/* Deficit Calculation */}
               <td>{calculateDeficit(student.amountPaid || 0)}</td>
+              
+              {/* Overpayment Calculation */}
+              <td>{calculateOverpayment(student.amountPaid || 0) > 0 ? `KES ${calculateOverpayment(student.amountPaid || 0).toLocaleString()}` : 'KES 0'}</td> {/* Display Overpayment */}
               
               <td>
                 <FeeStatusButtons 

@@ -1,6 +1,26 @@
+import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
+import axios from 'axios'; // Make sure you install axios or use fetch
 
-const FilterStudents = ({ filter, setFilter, students, setSelectedStudent }) => {
+const FilterStudents = ({ filter, setFilter, setSelectedStudent }) => {
+  const [students, setStudents] = useState([]);
+
+  useEffect(() => {
+    const fetchStudents = async () => {
+  try {
+    const response = await axios.get('http://localhost:5000/Term1'); // <-- 5000 not 3000
+    setStudents(response.data);
+    toast.success("Students loaded successfully!");
+  } catch (error) {
+    console.error('Failed to fetch students:', error);
+    toast.error("Failed to load students. Please try again later.");
+  }
+};
+
+
+    fetchStudents();
+  }, []);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFilter(prev => ({ ...prev, [name]: value }));
@@ -17,26 +37,32 @@ const FilterStudents = ({ filter, setFilter, students, setSelectedStudent }) => 
 
   const handleSearch = () => {
     const { admissionNumber, grade } = filter;
+
     if (!admissionNumber.trim()) {
       toast.info("Please enter an admission number.");
       return;
     }
 
-    // Check if the grade is valid for the admission number
+    if (!students || students.length === 0) {
+      toast.error("No students available. Please add students first.");
+      return;
+    }
+
     const matchedStudent = students.find(
       student => student.admissionNumber.toLowerCase() === admissionNumber.trim().toLowerCase()
     );
 
     if (matchedStudent) {
-      if (matchedStudent.grade !== grade) {
-        toast.error(`Student's grade does not match! Expected Grade ${matchedStudent.grade}, but got Grade ${grade}.`);
+      if (grade && matchedStudent.grade !== grade) {
+        toast.error(`Grade mismatch! Expected ${matchedStudent.grade}, but selected ${grade}.`);
+        setSelectedStudent(null);
       } else {
         setSelectedStudent(matchedStudent);
         toast.success("Student found!");
       }
     } else {
       setSelectedStudent(null);
-      toast.warning("Student not found. Please add them to the system.");
+      toast.warning("Student not found. Please make sure the admission number is correct.");
     }
   };
 
@@ -89,6 +115,7 @@ const FilterStudents = ({ filter, setFilter, students, setSelectedStudent }) => 
         </select>
       </div>
 
+      {/* Button to clear all filters */}
       <button onClick={clearFilters} className="clear-filters">
         Clear Filters
       </button>
