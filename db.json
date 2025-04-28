@@ -1107,6 +1107,16 @@
       "amountPaid": 3000,
       "term": "Term 1",
       "feeStatus": "partial"
+    },
+    {
+      "id": "1745841731558",
+      "name": "Alice Wanjiku",
+      "admissionNumber": "1001",
+      "grade": "Grade 5",
+      "amountPaid": 25000,
+      "term": "Term 2",
+      "feeStatus": "partial",
+      "overpayment": 0
     }
   ],
   "Term2": [
