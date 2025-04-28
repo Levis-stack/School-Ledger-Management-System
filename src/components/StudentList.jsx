@@ -17,7 +17,7 @@ const StudentList = () => {
                    : selectedTerm === 'Term 2' ? "Term2"
                    : "Term3";
 
-    fetch(`http://localhost:5000/${endpoint}`)
+    fetch(`http://localhost:3000/${endpoint}`)
       .then(res => res.json())
       .then(data => {
         const studentsWithStatus = data.map(student => {
@@ -56,7 +56,7 @@ const StudentList = () => {
                    : selectedTerm === 'Term 2' ? "Term2"
                    : "Term3";
 
-    fetch(`http://localhost:5000/${endpoint}/${studentToDelete.id}`, {
+    fetch(`http://localhost:3000/${endpoint}/${studentToDelete.id}`, {
       method: 'DELETE',
       headers: { 'Content-Type': 'application/json' },
     })
@@ -100,7 +100,7 @@ const StudentList = () => {
                    : selectedTerm === 'Term 2' ? "Term2"
                    : "Term3";
 
-    fetch(`http://localhost:5000/${endpoint}/${id}`, {
+    fetch(`http://localhost:3000/${endpoint}/${id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ amountPaid, overpayment, feeStatus }),

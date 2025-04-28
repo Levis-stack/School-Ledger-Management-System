@@ -25,7 +25,7 @@ const Settings = ({ handleTermChange, settingsTerm }) => {
   }, []);
 
   useEffect(() => {
-    fetch('http://localhost:5000/Term1')
+    fetch('http://localhost:3000/Term1')
       .then(response => response.json())
       .then(data => setStudents(data))
       .catch(error => console.error('Error fetching students data:', error));
@@ -85,11 +85,6 @@ const Settings = ({ handleTermChange, settingsTerm }) => {
         <div className="setting-item">
           <label>Data Backup</label>
           <button className="backup-button" onClick={handleExportData}>Export Data</button>
-        </div>
-        
-        <div className="setting-item">
-          <label>Reset Data</label>
-          <button className="reset-button">Clear All Data</button>
         </div>
 
         <div className="setting-item">

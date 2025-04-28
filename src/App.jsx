@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './styles.css';
 
-const API_BASE_URL = "http://localhost:5000/Term1"; // Ensure this matches your backend API endpoint
+const API_BASE_URL = "http://localhost:3000/Term1"; // Ensure this matches your backend API endpoint
 
 function App() {
   const [students, setStudents] = useState([]);

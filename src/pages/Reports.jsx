@@ -13,9 +13,9 @@ const Reports = ({ selectedTerm }) => {
 
   const fetchStudents = (term) => {
     const termEndpoint = {
-      'Term 1': 'http://localhost:5000/Term1',
-      'Term 2': 'http://localhost:5000/Term2',
-      'Term 3': 'http://localhost:5000/Term3',
+      'Term 1': 'http://localhost:3000/Term1',
+      'Term 2': 'http://localhost:3000/Term2',
+      'Term 3': 'http://localhost:3000/Term3',
     };
 
     fetch(termEndpoint[term])

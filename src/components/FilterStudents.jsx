@@ -8,7 +8,7 @@ const FilterStudents = ({ filter, setFilter, setSelectedStudent }) => {
   useEffect(() => {
     const fetchStudents = async () => {
   try {
-    const response = await axios.get('http://localhost:5000/Term1'); // <-- 5000 not 3000
+    const response = await axios.get('http://localhost:3000/Term1'); // <-- 5000 not 3000
     setStudents(response.data);
     toast.success("Students loaded successfully!");
   } catch (error) {
