@@ -1,0 +1,1002 @@
+/* Base Styles */
+:root {
+  --primary-color: #4a6fa5;
+  --secondary-color: #6b8cae;
+  --accent-color: #ff7e5f;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --success-color: #4CAF50;
+  --warning-color: #FFC107;
+  --danger-color: #F44336;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dashboard Styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboard h1 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+}
+
+/* Button Styles */
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-button {
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 1rem;
+}
+
+.add-button:hover {
+  background-color: #3a5a8f;
+}
+
+.delete-button {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.clear-filters {
+  background-color: var(--warning-color);
+  margin-top: 1rem;
+}
+
+.clear-filters:hover {
+  background-color: #ffb300;
+}
+
+.confirm-button {
+  background-color: var(--danger-color);
+  color: white;
+  margin-right: 1rem;
+}
+
+.cancel-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Table Styles */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Status Buttons */
+.fee-status-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.status-button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.status-button.active {
+  color: white;
+}
+
+/* Delete Confirmation */
+.delete-confirmation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.confirmation-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+.confirmation-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Reports Page */
+.reports {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card h3 {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.stat-card p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.stat-card.total {
+  border-top: 4px solid var(--primary-color);
+}
+
+.stat-card.paid {
+  border-top: 4px solid var(--success-color);
+}
+
+.stat-card.pending {
+  border-top: 4px solid var(--danger-color);
+}
+
+.stat-card.partial {
+  border-top: 4px solid var(--warning-color);
+}
+
+.chart-placeholder {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart {
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  margin: 1rem 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.chart-bar {
+  height: 100%;
+}
+
+.paid-bar {
+  background-color: var(--success-color);
+}
+
+.partial-bar {
+  background-color: var(--warning-color);
+}
+
+.pending-bar {
+  background-color: var(--danger-color);
+}
+
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-item::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.legend-item.paid::before {
+  background-color: var(--success-color);
+}
+
+.legend-item.partial::before {
+  background-color: var(--warning-color);
+}
+
+.legend-item.pending::before {
+  background-color: var(--danger-color);
+}
+
+/* Settings Page */
+.settings-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.setting-item:last-child {
+  border-bottom: none;
+}
+
+.backup-button {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.reset-button {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.search-btn {
+  padding: 0.4rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.search-btn:hover {
+  background-color: #45a049;
+}
+
+.clear-filters {
+  margin-top: 1rem;
+  background-color: #ff6b6b;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.clear-filters:hover {
+  background-color: #e04343;
+}
+.student-details {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+ width: 500px;
+ 
+  margin: 2rem auto;
+  z-index: 10;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.student-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.detail-group {
+  margin-bottom: 1rem;
+}
+
+.detail-group label {
+  display: block;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 0.3rem;
+}
+
+.detail-group p {
+  background-color: #f9f9f9;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.update-fee-form {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.update-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+.update-button:hover {
+  background-color: #43a047;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+ left: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s ease;
+}
+
+.close-button:hover {
+  color: #000;
+}
+.content{
+  width: 100vw;
+  position: relative;
+}
+.student-list-container {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  width: 1500px;
+ margin-right: 600px;
+}
+
+.student-list-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  min-width: 0; /* Add this for flex child overflow issues */
+  width: 1400px;
+  
+}
+
+
+/* Sidebar Container */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 260px;
+  min-width: 250px;
+  position: absolute;
+  left:0;
+  transform: translateX(-290px);
+  
+}
+
+/* Sidebar Base Styling */
+.sidebar-container .sidebar,
+.sidebar-container .sidebar2 {
+  background-color: #3a5a8f;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 0.95rem;
+ 
+}
+
+
+
+/* Summary Section */
+.summary {
+  margin-bottom: 2rem;
+  background-color: #eef3f9;
+  padding: 1.25rem;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+
+.student-table {
+  width: 100%;            /* Ensures the table takes full width of its container */
+  max-width: 100%;    /* Limits the table width to 1200px */
+  margin: 0 auto;         /* Centers the table within its container */
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  font-size: 1rem;        /* Adjust font size */
+}
+.table-container{
+  width: 1400px;
+}
+
+.student-table th,
+.student-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.student-table th {
+  background-color: #f0f4f8;
+  font-weight: 600;
+  color: #333;
+}
+
+
+/* Delete Confirmation Modal */
+.delete-confirmation {
+  background-color: rgba(0, 0, 0, 0.55);
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* No Students Found Message */
+.no-students {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-top: 3rem;
+  font-style: italic;
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.sidebar-header h3 {
+  margin: 0;
+  color: #fff; /* Or your desired color */
+  background: transparent;
+  font-size: 1.2rem;
+}
+.collapsed-sidebar {
+  background: transparent;
+}
+
+.collapsed-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.expand-btn {
+  background: transparent;
+  border: none;
+  color: #fff; /* Adjust color as needed */
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.collapse-btn {
+  background: transparent;
+  border: none;
+  color: #fff; /* or any color that fits your theme */
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.collapse-btn:hover {
+  opacity: 0.8;
+}
+/* Sidebar2 default styles */
+.sidebar2 {
+  background-color: #3a5a8f;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.4s ease;
+  width: 250px;
+}
+
+/* Collapsed sidebar */
+.sidebar2.collapsed {
+  width: 250px;
+  padding: 0.5rem;
+  overflow: hidden;
+  height: 60px;
+}
+
+
+/* Hide term list in collapsed state */
+.term-list2.collapsed-list {
+  display: none;
+}
+.collapse-toggle2 {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 100%;            /* Make button take full width */
+  text-align: center;     /* Center the text */
+}
+
+.term-list2.blurred {
+  filter: blur(3px);
+  pointer-events: none;
+  transition: filter 0.3s ease;
+}
+
+.upcoming2 {
+  color: #b33;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-align: center;
+}
+.table-container.blurred {
+  filter: blur(5px);
+  pointer-events: none; /* Prevent interactions while blurred */
+}
+.radio-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.radio-buttons label {
+  margin-right: 20px;
+}
+
+.term-item2 {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.term-item2:hover {
+  background-color: #f0f8ff; /* Lighter shade of blue on hover */
+}
+
+.term-item2.selected {
+  background-color: #a0c4ff; /* Lighter blue shade for selected term */
+  color: white; /* Ensure text is readable */
+}
+
+.term-item2.blurred {
+  color: gray; /* Apply gray color for blurred terms */
+  text-decoration: line-through; /* Optional: apply a line-through for blurred terms */
+}
+.grade-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.grade-item:hover {
+  background-color: #f0f8ff; /* Lighter shade of blue on hover */
+}
+
+.grade-item.selected {
+  background-color: #a0c4ff; /* Lighter blue shade for selected grade */
+  color: white; /* Ensure text is readable */
+}
+
+.grade-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapse-btn, .expand-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Default student list style */
+.term-list2 {
+  transition: filter 0.3s ease-in-out; /* Add transition for smooth blur effect */
+}
+
+.term-list2.blurred {
+  filter: blur(5px); /* Apply blur effect */
+}
+
+.term-item2 {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Highlight the selected term */
+.term-item2.selected {
+  background-color: #cce5ff; /* Light blue for selected term */
+  font-weight: bold;
+}
+
+/* Styling for the message */
+.term-message {
+  font-size: 14px;
+  color: #ff0000; /* Red for pass/upcoming message */
+  margin-top: 10px;
+  text-align: center;
+}
+.term-notification {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* In your App.css or main CSS file */
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Optional: make transitions smooth */
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
+/* Center the modal overlay */
+.delete-confirmation-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal box itself */
+.delete-confirmation-modal {
+  background: white;
+  padding: 2rem 2.5rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  animation: popIn 0.3s ease-out;
+}
+
+/* Buttons inside the modal */
+.modal-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Cancel Button */
+.cancel-btn {
+  background: #ccc;
+  color: black;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cancel-btn:hover {
+  background: #bbb;
+}
+
+/* Confirm Delete Button */
+.confirm-delete-btn {
+  background: #ff4d4d; /* bright red */
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.confirm-delete-btn:hover {
+  background: #ff1a1a;
+  transform: scale(1.05);
+}
+
+
+
+/* Optional pop-in animation */
+@keyframes popIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .student-list-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .student-list-content {
+    min-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .sidebar-container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sidebar-container .sidebar,
+  .sidebar-container .sidebar2 {
+    flex: 1;
+    min-width: 45%;
+  }
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .navbar-links {
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+}
